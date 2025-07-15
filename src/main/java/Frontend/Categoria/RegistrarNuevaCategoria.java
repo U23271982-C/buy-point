@@ -8,7 +8,6 @@ import java.awt.Color;
 import java.awt.HeadlessException;
 import java.awt.Toolkit;
 import java.util.ArrayList;
-import javax.swing.JComboBox;
 import javax.swing.JOptionPane;
 
 public class RegistrarNuevaCategoria extends javax.swing.JFrame {

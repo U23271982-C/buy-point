@@ -3,11 +3,9 @@ package Frontend;
 
 import Frontend.FormulariosPrincipales.MenuPrincipalPanel;
 import Frontend.visualFramework.Formato_Imagen;
-import java.awt.Image;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
 
 public class LogoCarga extends javax.swing.JFrame {
 

@@ -5,8 +5,6 @@ package Frontend.FormulariosPrincipales;
 //import Backend.CredencialesUsuario;
 import Backend.Controladores.CtrlCredencialesTienda;
 import Backend.Entidades.CredencialesTienda;
-import Frontend.InicioAplicacion;
-import Frontend.LogoCarga;
 import Frontend.visualFramework.Formato_Imagen;
 
 import java.awt.Color;

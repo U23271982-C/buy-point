@@ -6,7 +6,6 @@ import Backend.Gestores.GestorGraficadorEstadisticas;
 import Frontend.visualFramework.Formato_Imagen;
 
 import java.awt.Color;
-import java.util.HashMap;
 import java.util.List;
 import javax.swing.*;
 
