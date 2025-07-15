@@ -22,25 +22,35 @@
             <scope>provided</scope>
         </dependency>
         <!--Drivers Data Bases-->
+        <!--MongoDB-->
         <dependency>
             <groupId>org.mongodb</groupId>
             <artifactId>mongodb-driver-sync</artifactId>
             <version>4.11.0</version>
         </dependency>
+        <!--Neo4j-->
         <dependency>
             <groupId>org.neo4j.driver</groupId>
             <artifactId>neo4j-java-driver</artifactId>
             <version>5.16.0</version>
         </dependency>
+        <!--Redis-->
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
             <version>5.1.0</version>
         </dependency>
+        <!--Cassandra-->
         <dependency>
             <groupId>com.datastax.oss</groupId>
             <artifactId>java-driver-core</artifactId>
             <version>4.17.0</version>
+        </dependency>
+        <!--SQL_Server-->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>12.4.2.jre11</version> <!-- o una compatible con tu JDK -->
         </dependency>
     </dependencies>
     <build>

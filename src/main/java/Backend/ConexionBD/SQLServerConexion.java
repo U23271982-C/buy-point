@@ -69,10 +69,7 @@ public class SQLServerConexion extends BaseDatosConexion<Connection> {
         return instancia;
     }
 
-    @Override
-    public Connection getConnection() {
-        return connection;
-    }
+
 
     @Override
     protected void connect() {
@@ -87,6 +84,15 @@ public class SQLServerConexion extends BaseDatosConexion<Connection> {
         }
 
     }
+
+    @Override
+    public Connection getConnection() {
+        if (connection == null) {
+            connect();
+        }
+        return connection;
+    }
+
 
     @Override
     protected void disconnect() {
